@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: pad
+metadata: 
+  creationTimestamp: "2020-20-17T07:06:26z"
+  generateName: frontend-
+  lablels:
+    tag: frontend
+  name: frontend-b2zdv
+  namespace: default
+  OwnerReference:
+    - apiVersion: apps/v1
+      blockOwnerDeletion: true
+      contraller: true
+      kind: Replicaset
+      name: frontend
+      uid: f391f6
